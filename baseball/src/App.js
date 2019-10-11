@@ -1,6 +1,5 @@
 import React from 'react';
 import Dashboard from './Dashboard';
-import Display from './Display';
 import './App.css';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
 
       <div className='main'>
         <Dashboard />
-        <Display />
       </div>
     </div>
   );

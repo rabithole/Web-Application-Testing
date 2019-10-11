@@ -31,6 +31,7 @@
   background-color: red;
   border-radius: 10px;
   box-shadow: 10px 10px 30px black;
+  padding: 10px;
 }
 
 .display {
@@ -40,6 +41,7 @@
   background-color: red;
   border-radius: 10px;
   box-shadow: 10px 10px 30px black;
+  padding: 10px;
 }
 
 button {
@@ -64,15 +66,19 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #585858;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+  font-size: 2em;
   margin-top: 50px;
 }
 
 .stats {
   background-color: #d3d3d3;
-  width: 75%;
+  width: 10%;
   margin: 20px auto;
   padding: 10px;
   box-shadow: 3px 3px 19px black;
   border: solid 2px white;
+  font-weight: 700;
+  font-size: 1.5em;
 }
