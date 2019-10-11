@@ -66,6 +66,7 @@ h1 {
 
 #title {
   font-size: 3em;
+  text-shadow: 3px 3px 15px red;
 }
 
 h2 {
