@@ -6,7 +6,8 @@
   "dependencies": {},
   "devDependencies": {
     "@testing-library/jest-dom": "^4.1.2",
-    "@testing-library/react": "^9.3.0"
+    "@testing-library/react": "^9.3.0",
+    "jest": "^24.9.0"
   },
   "scripts": {
     "test": "jest"
