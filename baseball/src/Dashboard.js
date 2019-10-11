@@ -13,11 +13,13 @@ function Dashboard() {
   const addBall = () => {
     ball === 4 ? increaseBall(0) : increaseBall(ball + 1);
     ball === 4 ? increaseStrike(0) : increaseBall(ball + 1);
+    ball === 4 ? increaseFoul(0) : increaseBall(ball + 1);
   }
 
   const addStrike = (hit) => {
     strike === 2 ? increaseStrike(0) : increaseStrike(0);
     strike > 1 ? increaseBall(0) : increaseStrike(strike + 1);
+    strike === 3 ? increaseFoul(0) : increaseStrike(strike + 1);
   }
 
   const addFouls = () => {
@@ -31,6 +33,17 @@ function Dashboard() {
     if(yesHit === true){
       increaseFoul(0);
     }
+    if(strike === 2) {
+      increaseStrike(2);
+    }
+  }
+
+  if(strike === 3) {
+    setTimeout(function() {
+      increaseStrike(0);
+      increaseFoul(0);
+    }, 3000);
+
   }
 
   const addHits = () => {
